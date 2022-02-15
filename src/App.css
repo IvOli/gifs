@@ -15,7 +15,7 @@
 }
 .gif__container{
   width: 90vw;
-  height: 87vh;
+  height: 86vh;
   overflow-y: scroll;
   display: flex;
   flex-wrap: wrap;
@@ -70,11 +70,11 @@ a{
 }
 .search{
   width: 85vw;
-  height: 10vh;
-  margin-bottom: 35px;
+  height: 16vh;
 }
 .search__title{
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
   font-size: 36px;
   color: white;
   text-align: center;
@@ -138,6 +138,7 @@ input:focus{
 @media (max-width:600px) {
   .gif{
     width: 90%;
+    height: 400px;
   }
   .search__button {
     font-size:10px;
